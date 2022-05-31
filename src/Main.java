@@ -5,11 +5,11 @@ public class Main {
         if(numeroIf > 0){
             System.out.println("El numero " + numeroIf + " es positivo");
         }
-        else if(numeroIf == 0){
-            System.out.println("El numero es " + numeroIf);
+        else if(numeroIf < 0){
+            System.out.println("El numero " + numeroIf + " es negativo");
         }
         else {
-            System.out.println("El numero " + numeroIf + " es negativo");
+            System.out.println("El numero es 0");
         }
 
         int numeroWhile = 0;
